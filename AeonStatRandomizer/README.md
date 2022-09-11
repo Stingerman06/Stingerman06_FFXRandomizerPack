@@ -19,6 +19,8 @@ When you're finished with the randomizer, open VBF Browser(if you closed it) and
 
 Things to note!
 
+You will want to back up any file you extract from the FFX_Data.VBF data file, since both copying/pasting that file and checking file integrity from steam can both take a while, not to mention the internet data transfer can be heavy.
+
 The early Aeons will probably be overpowered starting out. As in Valefor will probably have far too decent stats. This isn't balanced just yet.
 
 This randomizer will NOT randomize the Luck Stat. Why? Because I haven't found out where it would be stored in the files, if it's not this one. Otherwise, it's located in the exe file and there isn't anything I can do about that.
