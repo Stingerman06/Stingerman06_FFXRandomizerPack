@@ -17,7 +17,7 @@ Open the randomizer and follow the instructions.
 When you're finished with the randomizer, open VBF Browser(if you closed it) and follow the instructions like above, but this time, drag and drop the newly randomized file on the right side to replace the 'sum_assure.bin' file in there. After it finishes, you can then exit VBF Browser. It saves the file automatically after closing(if it takes a while, it's saving an entire 20GB file which is why). Start up the game any have fun!
 
 
-Things to note!
+##Things to note!
 
 You will want to back up any file you extract from the FFX_Data.VBF data file, since both copying/pasting that file and checking file integrity from steam can both take a while, not to mention the internet data transfer can be heavy.
 
