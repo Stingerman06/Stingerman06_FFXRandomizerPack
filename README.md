@@ -8,11 +8,11 @@ This is a randomizer pack for Final Fantasy X HD. This pack randomizes files ext
 2. A way to read .EXE files. This was made originally on a Windows computer, but can be compiled for other machines I'm sure(if not then I can look into it).
 3. Backups of the files you will be randomizing(try to avoid backing up the VBF file itself since it's a massive file to begin with).
 
-### Release has been temproarily removed!
-
-This has been removed temporarily to get some randomizers packed in and started. When this gets started, this message will go away!
-
-
-#### These randomizers are all console window, but do not require much else.
+### These randomizers are all console window, but do not require much else.
 
 Meaning you don't have to use something like PowerShell or Command Prompt(yay!)
+
+
+#### Release has been temproarily removed!
+
+This has been removed temporarily to get some randomizers packed in and started. When this gets started, this message will go away!
