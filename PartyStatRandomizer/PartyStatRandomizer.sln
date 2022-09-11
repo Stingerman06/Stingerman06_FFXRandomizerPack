@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.2.32526.322
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PartyStatRandomizer", "PartyStatRandomizer.csproj", "{ED21A798-FF58-47FC-AE6C-F19D7C3FADC6}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{ED21A798-FF58-47FC-AE6C-F19D7C3FADC6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ED21A798-FF58-47FC-AE6C-F19D7C3FADC6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ED21A798-FF58-47FC-AE6C-F19D7C3FADC6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ED21A798-FF58-47FC-AE6C-F19D7C3FADC6}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {BF782235-D4ED-4F92-B8A4-8F8A4D84500C}
+	EndGlobalSection
+EndGlobal
