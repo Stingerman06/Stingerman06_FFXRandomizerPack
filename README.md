@@ -11,8 +11,3 @@ This is a randomizer pack for Final Fantasy X HD. This pack randomizes files ext
 ### These randomizers are all console window, but do not require much else.
 
 Meaning you don't have to use something like PowerShell or Command Prompt(yay!)
-
-
-# Release has been temporarily removed!
-
-This has been removed temporarily to get some randomizers packed in and started. When this gets started, this message will go away!
