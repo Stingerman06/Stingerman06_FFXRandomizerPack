@@ -183,7 +183,7 @@ for (int i = 0; i < 10; i++)
         saveFile.WriteByte((byte)accuracy[j]);
     }//Reinsert them
 
-    Console.WriteLine("Aeon \"" + aeonName[i] + "\" randomized!");
+    Console.WriteLine(aeonName[i] + " successfully randomized!");
 }
 saveFile.Close();
 
