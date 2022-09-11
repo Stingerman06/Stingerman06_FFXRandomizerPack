@@ -1,0 +1,21 @@
+﻿Current Version 0.1.0
+
+
+++ Version History ++
+
+| 0.1.0 | - Initial Release
+
+Features:
+
+1. Randomizes the stat growth values of all Aeons.
+2. Supports user Seed input.
+3. Uses the console window(don't worry, I didn't get that dirty.).
+
+Known Issues:
+
+1. Starting Aeon stats can be overpowered.
+2. Yojimbo's MP isn't being randomized*.
+3. Console Window code is just messy to look at.
+
+
+* - This may not be an actual issue, however it has a lot to do with the original value being 0, as this only happened with Yojimbo's MP stat.
