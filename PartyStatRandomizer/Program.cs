@@ -212,9 +212,13 @@ for (int i = 0; i < seyMan; i++)
                 }
             }
         }
+        if (stats[j] == 0)
+        {
+            stats[j] = (uint)random.Next(5, 31);
+        }
         else
         {
-            stats[j - 2] = (uint)random.Next(5, 31);
+            stats[j] = (uint)random.Next((int)stats[j] / 2, ((int)stats[j] / 2 * 3) + 1);
         }
         randomSeed++;
     }
