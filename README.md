@@ -27,10 +27,10 @@ These randomizers are all console window, but do not require much else, meaning 
 
 - Monster Stat Randomizer
 - Monster Drops/Steal Randomizing(data needs to be researched more to utilize this)
-- (safely)Randomize Monster Locations*
+- (safely)Randomize Monster Locations $
 - Field Item Randomizer(from chests and other pickups)
 - Shop Item Randomizer
 - Unchangeable Equipment Ability Randomizer(such as Chappu's Sword or the Caladbolg for example)
 
 
-* - This will need to be looked into before I can work on it, since some encounters have some AI scripts in them. An example being the Guado Guardian while leaving Macalania Temple, will "summon" enemies. They actually turn enemies Visible, and simply replacing the enemy with another is already Visible, and will cause a crash when that enemy becomes visible.
+$ This will need to be looked into before I can work on it, since some encounters have some AI scripts in them. An example being the Guado Guardian while leaving Macalania Temple, will "summon" enemies. They actually turn enemies Visible, and simply replacing the enemy with another is already Visible, and will cause a crash when that enemy becomes visible.
