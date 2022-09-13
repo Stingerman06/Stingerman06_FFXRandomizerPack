@@ -123,6 +123,7 @@ FileStream saveFile = new FileStream(AppDomain.CurrentDomain.BaseDirectory + "\\
 readFile.CopyTo(saveFile);
 readFile.Close();
 
+//Randomizing the stats and applying them
 for (int i = 0; i < 10; i++)
 {
     saveFile.Position = 0x14 + (0x0C * i);
@@ -146,17 +147,117 @@ for (int i = 0; i < 10; i++)
     for (int j = 0; j < 20; j++)//Randomize them
     {
         Random random = new Random(randomSeed);
-        healthPoints[j] = (uint)random.Next((int)healthPoints[j] / 2, 8001);
+        {
+            if (healthPoints[j] == 0)
+            {
+                healthPoints[j] = (uint)random.Next((int)healthPoints[j] / 2, 8001);
+            }
+            else
+            {
+                healthPoints[j] = (uint)random.Next((int)healthPoints[j] / 2, (int)healthPoints[j] / 2 * 3 + 1);
+                if (healthPoints[j] >= 255)
+                {
+                    healthPoints[j] = 255;
+                }
+            }
+            if (magicPoints[j] == 0)
+            {
+                magicPoints[j] = (uint)random.Next((int)magicPoints[j] / 2, 501);
+            }
+            else
+            {
+                magicPoints[j] = (uint)random.Next((int)magicPoints[j] / 2, (int)magicPoints[j] / 2 * 3 + 1);
+                if (magicPoints[j] >= 255)
+                {
+                    magicPoints[j] = 255;
+                }
+            }
+            if (strength[j] == 0)
+            {
+                strength[j] = (uint)random.Next((int)strength[j] / 2, 129);
+            }
+            else
+            {
+                strength[j] = (uint)random.Next((int)strength[j] / 2, (int)strength[j] / 2 * 3 + 1);
+                if (strength[j] >= 255)
+                {
+                    strength[j] = 255;
+                }
+            }
+            if (defense[j] == 0)
+            {
+                defense[j] = (uint)random.Next((int)defense[j] / 2, 129);
+            }
+            else
+            {
+                defense[j] = (uint)random.Next((int)defense[j] / 2, (int)defense[j] / 2 * 3 + 1);
+                if (defense[j] >= 255)
+                {
+                    defense[j] = 255;
+                }
+            }
+            if (magicAttack[j] == 0)
+            {
+                magicAttack[j] = (uint)random.Next((int)magicAttack[j] / 2, 129);
+            }
+            else
+            {
+                magicAttack[j] = (uint)random.Next((int)magicAttack[j] / 2, (int)magicAttack[j] / 2 * 3 + 1);
+                if (magicAttack[j] >= 255)
+                {
+                    magicAttack[j] = 255;
+                }
+            }
+            if (magicDefense[j] == 0)
+            {
+                magicDefense[j] = (uint)random.Next((int)magicDefense[j] / 2, 129);
+            }
+            else
+            {
+                magicDefense[j] = (uint)random.Next((int)magicDefense[j] / 2, (int)magicDefense[j] / 2 * 3 + 1);
+                if (magicDefense[j] >= 255)
+                {
+                    magicDefense[j] = 255;
+                }
+            }
+            if (agility[j] == 0)
+            {
+                agility[j] = (uint)random.Next((int)agility[j] / 2, 129);
+            }
+            else
+            {
+                agility[j] = (uint)random.Next((int)agility[j] / 2, (int)agility[j] / 2 * 3 + 1);
+                if (agility[j] >= 255)
+                {
+                    agility[j] = 255;
+                }
+            }
+            if (evasion[j] == 0)
+            {
+                evasion[j] = (uint)random.Next((int)evasion[j] / 2, 129);
+            }
+            else
+            {
+                evasion[j] = (uint)random.Next((int)evasion[j] / 2, (int)evasion[j] / 2 * 3 + 1);
+                if (evasion[j] >= 255)
+                {
+                    evasion[j] = 255;
+                }
+            }
+            if (accuracy[j] == 0)
+            {
+                accuracy[j] = (uint)random.Next((int)accuracy[j] / 2, 129);
+            }
+            else
+            {
+                accuracy[j] = (uint)random.Next((int)accuracy[j] / 2, (int)accuracy[j] / 2 * 3 + 1);
+                if (accuracy[j] >= 255)
+                {
+                    accuracy[j] = 255;
+                }
+            }
+        }
         randomSeed++;
-        magicPoints[j] = (uint)random.Next((int)magicPoints[j] / 2, 501);
-        randomSeed++;
-        strength[j] = (uint)random.Next((int)strength[j] / 2, 129);
-        defense[j] = (uint)random.Next((int)defense[j] / 2, 129);
-        magicAttack[j] = (uint)random.Next((int)magicAttack[j] / 2, 129);
-        magicDefense[j] = (uint)random.Next((int)magicDefense[j] / 2, 129);
-        agility[j] = (uint)random.Next((int)agility[j] / 2, 129);
-        evasion[j] = (uint)random.Next((int)evasion[j] / 2, 129);
-        accuracy[j] = (uint)random.Next((int)accuracy[j] / 2, 129);
     }//Randomize them
     Array.Sort(healthPoints);
     Array.Sort(magicPoints);
@@ -185,6 +286,7 @@ for (int i = 0; i < 10; i++)
 
     Console.WriteLine(aeonName[i] + " successfully randomized!");
 }
+//Randomizing the stats and applying them
 saveFile.Close();
 
 Console.WriteLine("\nAeon stats successfully randomized!\n\nSeed: " + baseSeed + "\n\nPress any key to exit.");
