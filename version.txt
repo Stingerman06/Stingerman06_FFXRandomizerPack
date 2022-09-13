@@ -1,7 +1,13 @@
-# Current Version 0.0.1.0
+# Current Version 0.0.1.1
 
 
 ++ Version History ++
+
+| 0.0.1.1 | - Bugfixes
+
+- Party members stats(Accuracy and Evasion) were not being randomized
+- Stats that are 0 can now be properly randomized(except the Aeon's Luck Stat) for all party members and Aeons.
+
 
 | 0.0.1.0 | - Initial Release
 
