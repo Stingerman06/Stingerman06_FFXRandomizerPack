@@ -23,11 +23,6 @@ These randomizers are all console window, but do not require much else, meaning 
 4. Utilize 2 and 3 together
 5. Option to randomize names(and starting Aeon name choices) in addition to randomizing Party stats.
 
-### Effects on using this Randomizer with other Randomizers
-
- - The Sphere Grid Randomizer works fine(as intended). However, the stats will not be randomized for one big reason. The Sphere Grid Randomizer creates a new save, which will have the original Stats for the Characters already made. This essentially renders these two Randomizers incompatible, as the game reads from the original files when making a new save file.
- - This randomizer affects the game files themselves, making all runs use the values in those files. Any randomizer(like the above mentioned Sphere Grid Randomizer), creates save files or uses external programs to randomize the game(like Cheat Engine), it is noted that things may differ when using this Randomizer.
-
 #### Planned Randomizers
 
 - Monster Stat Randomizer
@@ -37,5 +32,10 @@ These randomizers are all console window, but do not require much else, meaning 
 - Shop Item Randomizer
 - Unchangeable Equipment Ability Randomizer(such as Chappu's Sword or the Caladbolg for example)
 
+
+### Effects on using this Randomizer with other Randomizers
+
+ - The Sphere Grid Randomizer works fine(as intended). However, the stats will not be randomized for one big reason. The Sphere Grid Randomizer creates a new save, which will have the original Stats for the Characters already made. This essentially renders these two Randomizers incompatible, as the game reads from the original files when making a new save file.
+ - This randomizer affects the game files themselves, making all runs use the values in those files. Any randomizer(like the above mentioned Sphere Grid Randomizer), creates save files or uses external programs to randomize the game(like Cheat Engine), it is noted that things may differ when using this Randomizer.
 
 $ This will need to be looked into before I can work on it, since some encounters have some AI scripts in them. An example being the Guado Guardian while leaving Macalania Temple, will "summon" enemies. They actually turn enemies Visible, and simply replacing the enemy with another that is already Visible, will cause a crash when that enemy is targeted to become visible.
