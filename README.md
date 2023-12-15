@@ -39,3 +39,4 @@ $ This will need to be looked into before I can work on it, since some encounter
 
  - The Sphere Grid Randomizer works fine(as intended). However, the stats will not be randomized for one big reason. The Sphere Grid Randomizer creates a new save, which will have the original Stats for the Characters already made. This essentially renders these two Randomizers incompatible, as the game reads from the original files when making a new save file.
  - This randomizer affects the game files themselves, making all runs use the values in those files. Any randomizer(like the above mentioned Sphere Grid Randomizer), creates save files or uses external programs to randomize the game(like Cheat Engine), it is noted that things may differ when using this Randomizer.
+ - If this randomizer is used with a Sphere Grid randomizer that uses FFXED, this should work fine with that randomizer, as long as the save is created by the game itself.
